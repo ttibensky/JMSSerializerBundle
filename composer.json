@@ -16,6 +16,17 @@
         "jms/serializer": "dev-master",
         "symfony/framework-bundle": "~2.1"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:ttibensky/serializer.git",
+            "options": {
+                "ssl": {
+                    "verify_peer": "true"
+                }
+            }
+        }
+    ],
     "require-dev": {
         "symfony/yaml": "*",
         "symfony/browser-kit": "*",
